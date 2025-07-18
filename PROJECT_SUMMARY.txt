@@ -1,0 +1,76 @@
+Discord Bot Project Summary
+==========================
+
+👋 Hello everyone,
+
+This project started as a personal side project to grow as a developer — particularly in understanding how to work with data in real-time environments like Discord.
+
+---
+
+## 💡 Original Idea (Failed Attempt)
+
+The initial idea was to create a Discord bot that uses OpenAI and external APIs to track **Valorant** players using their Riot ID. The goal was to fetch and display stats for players directly in Discord.
+
+However, this plan didn’t work out due to **API access limitations** — the official Valorant stat trackers are restricted and do not expose public APIs without special access or sponsorship.
+
+---
+
+## 🔁 New Direction — User Tracker Bot
+
+Instead, I pivoted the project into building a **Discord User Tracker Bot**, which focuses on tracking activity *within a Discord server*.
+
+---
+
+## 🎯 Key Features
+
+- Tracks how many messages each user sends
+- Logs when users **join** or **leave** the server
+- Tracks **reactions** given and received
+- Provides **XP and level system** based on activity
+- Slash commands to check:
+  - `/stats` — your personal server activity
+  - `/leaderboard` — top users by XP
+  - `/joined` — how long someone’s been in the server
+
+All data is stored in **MongoDB** for persistence and scalability.
+
+---
+
+## ⚙️ Technologies Used
+
+- `discord.py` for bot framework  
+- `pymongo` to integrate MongoDB  
+- `python-dotenv` for secure config  
+- Python 3.11 & virtual environments  
+
+---
+
+## 🧠 Challenges
+
+Writing `commands.py` and getting slash commands to sync properly with Discord's API was tricky. Handling deferred interactions and embedding dynamic data from MongoDB required debugging and learning async programming.
+
+---
+
+## ✅ Results & Takeaways
+
+This project taught me:
+- How to build an event-driven bot architecture  
+- How to work with third-party APIs (even when limited)  
+- Real-time user data tracking and command handling  
+- Working with MongoDB in production-style environments  
+
+As a developer, it reinforced how to:
+- Break down problems into features  
+- Refactor when plans change  
+- Handle failure and pivot into new opportunities  
+
+---
+
+## 📢 Important
+
+This project can be forked or extended to build **any kind of user tracker**, such as:
+- Study timer bots
+- Moderation log bots
+- Gamified server XP systems
+
+Built with ❤️ by Shadman Shahzahan
