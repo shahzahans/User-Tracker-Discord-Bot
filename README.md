@@ -1,21 +1,21 @@
-# 🧠 User-Tracker Discord Bot
+# User-Tracker Discord Bot
 
 A smart Discord bot that tracks user activity — messages, XP, reactions, server join time, and more — using MongoDB. Built with 💜 using `discord.py`.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎯 Tracks messages, XP, levels
-- 🎧 Monitors voice time (coming soon)
-- 🤝 Logs member join/leave events
-- 🎭 Tracks reactions given/received
-- 📊 Slash commands: `/stats`, `/joined`, `/leaderboard`, `/help`
-- 🧠 MongoDB backend for persistent data
+- Tracks messages, XP, levels
+- Monitors voice time (coming soon)
+- Logs member join/leave events
+- Tracks reactions given/received
+- Slash commands: `/stats`, `/joined`, `/leaderboard`, `/help`
+- MongoDB backend for persistent data
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### 1. Clone the repo (by downloading the file or through terminal)
 ```bash
